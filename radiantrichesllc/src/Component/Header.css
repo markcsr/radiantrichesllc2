@@ -1,0 +1,38 @@
+.Header{
+    padding: 1%;
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: #092635;
+    padding-left: 25%;
+    padding-right: 18%;
+}
+@media only screen and (max-width: 600px) {
+    .Header {
+        padding-left: 3%;
+    }
+  }
+.searchIcon{
+    margin-top: 3px;
+    background-color: white;
+    color: black;
+    height: 18px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.searchInputBox{
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.catagoires{
+    font-size: x-small;
+    padding: 5px;
+}
+.websiteBuilder{
+    font-size: x-small;
+    padding: 5px;
+}
+.todayDeal{
+    font-size: x-small;
+    padding: 5px;
+}

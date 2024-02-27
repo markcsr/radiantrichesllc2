@@ -1,0 +1,28 @@
+.bottom{
+    padding-left: 20%;
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: #092635;
+    position: relative;
+    bottom: 0px;
+  }
+th{
+  font-size: medium;
+  text-align: left;
+}
+tr{
+  font-size: x-small;
+}
+table{
+  padding-right: 50px;
+}
+.conutryNameButton{
+  font-size: x-small;
+  color: white;
+  background-color: #092635;
+  border: none;
+}
+.heading{
+  font-size: small;
+}

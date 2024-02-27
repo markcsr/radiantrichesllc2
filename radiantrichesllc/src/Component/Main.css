@@ -1,0 +1,59 @@
+.Body{
+    padding-left: 18%;
+    padding-right: 18%;
+}
+@media only screen and (max-width: 600px) {
+    .Body {
+      
+      padding-left: 1%;
+      padding-right: 1%;
+    }
+  }
+.bigHeading{
+    font-size: 30px;
+}
+.Line1{
+    display: flex;
+}
+
+.lastUpdate{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .lastUpdate {
+        font-size: 14px;
+    }
+  }
+.Line2{
+    display: flex;
+}
+.Line3{
+    color: grey;
+}
+.verticalComponentCss{
+    display: flex;
+    width: 100%;
+}
+.Line2Button{
+    border: none;
+    padding: 20px 15px 0px 15px;
+}
+@media only screen and (max-width: 600px) {
+    .Line2Button {
+        font-size: 10px;
+    }}
+.singUpText{
+    font-size: 38px;
+    color:grey;
+}
+.signUpButton{
+    width: 15%;
+    float: right;
+    height: 35px;
+    color:white;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+
+}

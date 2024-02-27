@@ -1,0 +1,69 @@
+.verticalComponent{
+    margin: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 33%;
+}
+.verticalComponent:hover { 
+    border: 3px solid #0073e6; 
+    overflow: hidden; 
+} 
+.imageAndOffer{
+    
+    padding-bottom: 8px;
+}
+.builderImage1{
+    height: 100px;
+    width: 120px;
+    background-color: #555;
+}
+.someText{
+    font-size: smaller;
+    padding-top: 20px;
+    padding-left: 2%;
+    /* width: 25%;*/
+    height: 120px; 
+}
+.discText{
+    font-size: smaller;
+}
+.prize{
+    display: flex;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .prize {
+        padding-left: 0px;
+        font-size: 15px;
+    }}
+.orignalPrize{
+    color: gray;
+    font-size: x-small;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .orignalPrize {
+        padding-left: 5px;
+        padding-top: -20px;
+        font-size: 12px;
+    }}
+.discount{
+    color: red;
+    font-size: x-small;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .discount {
+        padding-left: 2px;
+        font-size: 10px;
+    }}
+.viewDeal{
+    width: 90%;
+    height: 30px;
+    color:white;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 6px;
+
+}

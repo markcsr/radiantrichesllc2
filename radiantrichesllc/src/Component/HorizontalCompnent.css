@@ -1,0 +1,76 @@
+.body{
+    padding-top: 0.5%;
+}
+.horizontalCourseComponent{
+    display: flex; 
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+.horizontalCourseComponent:hover { 
+    border: 3px solid #0073e6; 
+    overflow: hidden; 
+} 
+.imagePlusName{
+    margin: 0.25%;
+    padding-top: 20px;
+    padding-left: 2%;
+    width: 25%;
+}
+.componentNumber{
+    color: grey;
+}
+.picture{
+    width: 120px;
+    height: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .picture {
+    max-width: 100px;
+    height: 80px;
+    }}
+.imageText{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: small;
+}
+.builderImage{
+    height: 100px;
+    width: 120px;
+    background-color: #555;
+  }
+.textPart{
+    margin: 0.25%;
+    font-size: 12px;
+    padding-left: 2%;
+    width: 50%;
+    
+}
+.showMoreButton{
+    color:rgb(49, 149, 207);
+    border: none;
+    border-radius: 5px;
+}
+.ratingAndViewBotton{
+    margin: 0.25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 25%;
+    padding-bottom: 8px;
+}
+.ratingStar{
+    font-size: smaller;
+    padding-top: 20px;
+    padding-left: 2%;
+    /* width: 25%;*/
+    height: 120px; 
+}
+.viewButton{
+    width: 90%;
+    height: 30px;
+    color:white;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 6px;
+
+}
